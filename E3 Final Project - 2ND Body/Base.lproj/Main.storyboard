@@ -107,15 +107,15 @@
                                 <color key="textColor" red="1" green="0.86070221840000005" blue="0.91504575259999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ikt-dF-zfq">
-                                <rect key="frame" x="125" y="768" width="164" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00A-Ww-Xqs">
+                                <rect key="frame" x="120" y="714" width="174" height="46.5"/>
                                 <color key="tintColor" red="1" green="0.2607847619" blue="0.53990327599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home">
-                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="dlo-g6-Ncd"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="SrS-v6-mjP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -124,6 +124,7 @@
                         <constraints>
                             <constraint firstItem="bys-yC-1fk" firstAttribute="top" secondItem="zmC-82-5ee" secondAttribute="top" id="0zQ-dJ-Sa4"/>
                             <constraint firstItem="G8h-F9-8Z6" firstAttribute="leading" secondItem="zmC-82-5ee" secondAttribute="leading" constant="20" id="24T-2r-d9y"/>
+                            <constraint firstItem="zmC-82-5ee" firstAttribute="trailing" secondItem="00A-Ww-Xqs" secondAttribute="trailing" constant="120" id="4bx-xZ-8Ye"/>
                             <constraint firstItem="aJN-1W-Zqs" firstAttribute="top" secondItem="cIZ-BO-kaN" secondAttribute="bottom" id="5Wy-KJ-RTp"/>
                             <constraint firstItem="ISv-wa-Yfz" firstAttribute="top" secondItem="qZA-51-geb" secondAttribute="bottom" constant="20" id="CWc-qr-417"/>
                             <constraint firstItem="zmC-82-5ee" firstAttribute="trailing" secondItem="bys-yC-1fk" secondAttribute="trailing" constant="150" id="CzS-Dc-yFn"/>
@@ -138,12 +139,11 @@
                             <constraint firstItem="cIZ-BO-kaN" firstAttribute="top" secondItem="ajP-u1-vGf" secondAttribute="bottom" constant="20" id="OfJ-a4-7SL"/>
                             <constraint firstItem="zmC-82-5ee" firstAttribute="trailing" secondItem="jF9-OV-cqv" secondAttribute="trailing" constant="20" id="Ofi-wA-U2r"/>
                             <constraint firstItem="jF9-OV-cqv" firstAttribute="leading" secondItem="zmC-82-5ee" secondAttribute="leading" constant="20" id="Orh-I3-8Xs"/>
+                            <constraint firstItem="00A-Ww-Xqs" firstAttribute="leading" secondItem="zmC-82-5ee" secondAttribute="leading" constant="120" id="QOh-tu-Wno"/>
                             <constraint firstItem="cIZ-BO-kaN" firstAttribute="leading" secondItem="zmC-82-5ee" secondAttribute="leading" constant="20" id="Ssb-oj-Xlp"/>
                             <constraint firstItem="zmC-82-5ee" firstAttribute="trailing" secondItem="qZA-51-geb" secondAttribute="trailing" constant="20" id="UCr-ma-nLa"/>
-                            <constraint firstItem="zmC-82-5ee" firstAttribute="trailing" secondItem="Ikt-dF-zfq" secondAttribute="trailing" constant="230" id="UyW-lH-8eP"/>
                             <constraint firstItem="zmC-82-5ee" firstAttribute="trailing" secondItem="cIZ-BO-kaN" secondAttribute="trailing" constant="20" id="X32-rh-FMV"/>
                             <constraint firstItem="TO6-bz-r3U" firstAttribute="leading" secondItem="zmC-82-5ee" secondAttribute="leading" constant="20" id="XYY-63-zDO"/>
-                            <constraint firstItem="Ikt-dF-zfq" firstAttribute="top" secondItem="F2b-d7-i8S" secondAttribute="bottom" constant="20" id="XcO-CR-ZyJ"/>
                             <constraint firstItem="MNV-xe-dad" firstAttribute="leading" secondItem="zmC-82-5ee" secondAttribute="leading" constant="20" id="Xof-MU-0AX"/>
                             <constraint firstItem="zmC-82-5ee" firstAttribute="trailing" secondItem="aJN-1W-Zqs" secondAttribute="trailing" constant="20" id="ZcZ-uk-jWM"/>
                             <constraint firstItem="TO6-bz-r3U" firstAttribute="top" secondItem="MNV-xe-dad" secondAttribute="bottom" id="aK3-iv-qs3"/>
@@ -156,7 +156,7 @@
                             <constraint firstItem="aJN-1W-Zqs" firstAttribute="leading" secondItem="zmC-82-5ee" secondAttribute="leading" constant="20" id="n9x-m8-oOs"/>
                             <constraint firstItem="zmC-82-5ee" firstAttribute="trailing" secondItem="G8h-F9-8Z6" secondAttribute="trailing" constant="20" id="pFB-8s-LxI"/>
                             <constraint firstItem="bys-yC-1fk" firstAttribute="leading" secondItem="zmC-82-5ee" secondAttribute="leading" constant="20" id="qRz-5l-rv4"/>
-                            <constraint firstItem="Ikt-dF-zfq" firstAttribute="leading" secondItem="zmC-82-5ee" secondAttribute="leading" constant="20" id="tHm-mP-1A5"/>
+                            <constraint firstItem="00A-Ww-Xqs" firstAttribute="top" secondItem="F2b-d7-i8S" secondAttribute="bottom" constant="19.5" id="qnU-P6-SgV"/>
                             <constraint firstItem="zmC-82-5ee" firstAttribute="trailing" secondItem="F2b-d7-i8S" secondAttribute="trailing" constant="20" id="zjB-Ky-QCI"/>
                         </constraints>
                     </view>
@@ -189,7 +189,175 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p9C-r1-nuk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1986" y="-575"/>
+            <point key="canvasLocation" x="-3336" y="150"/>
+        </scene>
+        <!--Reproductive Health View Controller-->
+        <scene sceneID="7MF-7O-2Ey">
+            <objects>
+                <viewController id="oia-v7-XsA" customClass="ReproductiveHealthViewController" customModule="E3_Final_Project___2ND_Body" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JHY-bk-avF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0W4-Dw-5mC">
+                                <rect key="frame" x="0.0" y="44" width="414" height="798"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vFJ-3H-raw">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwd-MC-OcZ">
+                                                <rect key="frame" x="12" y="84" width="390" height="140.5"/>
+                                                <string key="text">Good sexual and reproductive health is a state of complete physical, mental and social well-being in all matters relating to the reproductive system. It implies that people are able to have a satisfying and safe sex life, the capability to reproduce and the freedom to decide if, when, and how often to do so.</string>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="17"/>
+                                                <color key="textColor" red="0.66313525880000002" green="0.078782255790000005" blue="0.22827826900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abortion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CxA-4s-Wbp">
+                                                <rect key="frame" x="100" y="254" width="214" height="26"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                                <color key="textColor" red="0.66386521464646464" green="0.090635351144585291" blue="0.091242298824430149" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7K-6U-7hX">
+                                                <rect key="frame" x="14" y="282" width="386" height="160.5"/>
+                                                <string key="text">An abortion is a procedure to end a pregnancy, and is a simple and common health-care procedure. Around 73 million induced abortions take place worldwids each year. Unfortunately, abortion can sometimes be inaccessible for women and people with uteruses, despite being sometimes a neccesary medical need</string>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="17"/>
+                                                <color key="textColor" red="0.4139046717" green="0.1018320546" blue="0.12076568090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen_Shot_2022-08-18_at_10.24.30_AM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="gt8-sZ-ej5">
+                                                <rect key="frame" x="33" y="455" width="348" height="244"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="244" id="q3k-BO-fxa"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maternal Mortality" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOb-OV-bbS">
+                                                <rect key="frame" x="50" y="707" width="314" height="26"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                                <color key="textColor" red="0.66386521460000003" green="0.090635351140000001" blue="0.091242298819999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDi-nv-FeL">
+                                                <rect key="frame" x="15" y="738" width="384" height="180.5"/>
+                                                <string key="text">All women need access to high quality care in pregnancy, and during and after childbirth. Maternal health and newborn health are closely linked. It is particularly important that all births are attended by skilled health professionals, as timely management and treatment can make the difference between life and death for the mother as well as for the baby.</string>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="17"/>
+                                                <color key="textColor" red="0.4139046717" green="0.1018320546" blue="0.12076568090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6p-QU-2qE">
+                                                <rect key="frame" x="90" y="972" width="234" height="37"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Click here for Statistics">
+                                                    <fontDescription key="titleFontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="19"/>
+                                                    <color key="baseBackgroundColor" red="1" green="0.29453337509999999" blue="0.70927830540000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="statButton:" destination="oia-v7-XsA" eventType="touchUpInside" id="QAk-iZ-uop"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFA-61-8si">
+                                                <rect key="frame" x="40" y="1066" width="334" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="17"/>
+                                                <color key="textColor" red="1" green="0.0" blue="0.12105407900974274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reproductive Health" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWi-ze-Exs">
+                                                <rect key="frame" x="8" y="34" width="246" height="32.5"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                                <color key="textColor" red="1" green="0.2607847619" blue="0.53990327599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wFF-9c-ckv">
+                                                <rect key="frame" x="15" y="1118" width="384" height="106"/>
+                                                <string key="text">Poor women in remote areas are the least likely to receive adequate health care. This is especially true for regions with low numbers of skilled health workers, such as sub-Saharan Africa and South Asia.</string>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
+                                                <color key="textColor" red="0.41390467171717171" green="0.05159176808616716" blue="0.14574971153908212" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUm-8j-wue">
+                                                <rect key="frame" x="50" y="1231" width="314" height="40"/>
+                                                <color key="tintColor" red="1" green="0.2607847619" blue="0.53990327599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="6il-MF-Yl5"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.93486077889999997" blue="0.94711793249999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="x7K-6U-7hX" firstAttribute="leading" secondItem="vFJ-3H-raw" secondAttribute="leading" constant="14" id="7n0-NV-i7R"/>
+                                            <constraint firstItem="zOb-OV-bbS" firstAttribute="leading" secondItem="vFJ-3H-raw" secondAttribute="leading" constant="50" id="8wG-qg-BES"/>
+                                            <constraint firstItem="wFF-9c-ckv" firstAttribute="top" secondItem="lFA-61-8si" secondAttribute="bottom" constant="52" id="A6f-1O-0cC"/>
+                                            <constraint firstAttribute="trailing" secondItem="x7K-6U-7hX" secondAttribute="trailing" constant="14" id="Aij-X4-9Hv"/>
+                                            <constraint firstAttribute="trailing" secondItem="CxA-4s-Wbp" secondAttribute="trailing" constant="100" id="CIG-Tv-87d"/>
+                                            <constraint firstItem="kDi-nv-FeL" firstAttribute="leading" secondItem="vFJ-3H-raw" secondAttribute="leading" constant="15" id="Ejx-8T-C1W"/>
+                                            <constraint firstItem="kDi-nv-FeL" firstAttribute="top" secondItem="zOb-OV-bbS" secondAttribute="bottom" constant="5" id="FUo-0s-ka0"/>
+                                            <constraint firstAttribute="trailing" secondItem="lFA-61-8si" secondAttribute="trailing" constant="40" id="Fs1-Qq-18g"/>
+                                            <constraint firstItem="FWi-ze-Exs" firstAttribute="top" secondItem="vFJ-3H-raw" secondAttribute="top" constant="34" id="G3M-pY-5Lv"/>
+                                            <constraint firstItem="bwd-MC-OcZ" firstAttribute="leading" secondItem="vFJ-3H-raw" secondAttribute="leading" constant="12" id="H1Y-h8-1pJ"/>
+                                            <constraint firstItem="lFA-61-8si" firstAttribute="top" secondItem="A6p-QU-2qE" secondAttribute="bottom" constant="57" id="Hkk-MH-Xe3"/>
+                                            <constraint firstItem="EUm-8j-wue" firstAttribute="top" secondItem="wFF-9c-ckv" secondAttribute="bottom" constant="7" id="NoK-xz-gMz"/>
+                                            <constraint firstItem="A6p-QU-2qE" firstAttribute="top" secondItem="kDi-nv-FeL" secondAttribute="bottom" constant="53.5" id="Oou-Im-hCT"/>
+                                            <constraint firstItem="bwd-MC-OcZ" firstAttribute="top" secondItem="FWi-ze-Exs" secondAttribute="bottom" constant="17.5" id="Ox4-uh-HNe"/>
+                                            <constraint firstAttribute="trailing" secondItem="zOb-OV-bbS" secondAttribute="trailing" constant="50" id="PpD-eW-JqO"/>
+                                            <constraint firstItem="x7K-6U-7hX" firstAttribute="leading" secondItem="vFJ-3H-raw" secondAttribute="leading" constant="14" id="RPO-iU-azy"/>
+                                            <constraint firstAttribute="trailing" secondItem="FWi-ze-Exs" secondAttribute="trailing" constant="160" id="Rso-eL-SAN"/>
+                                            <constraint firstItem="gt8-sZ-ej5" firstAttribute="leading" secondItem="vFJ-3H-raw" secondAttribute="leading" constant="33" id="T6O-T8-9Is"/>
+                                            <constraint firstAttribute="trailing" secondItem="gt8-sZ-ej5" secondAttribute="trailing" constant="33" id="UyW-ki-6Jo"/>
+                                            <constraint firstItem="EUm-8j-wue" firstAttribute="leading" secondItem="vFJ-3H-raw" secondAttribute="leading" constant="50" id="XWe-07-lUB"/>
+                                            <constraint firstAttribute="trailing" secondItem="x7K-6U-7hX" secondAttribute="trailing" constant="14" id="ZnC-4u-7PJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="wFF-9c-ckv" secondAttribute="trailing" constant="15" id="d2g-wW-cGA"/>
+                                            <constraint firstItem="FWi-ze-Exs" firstAttribute="leading" secondItem="vFJ-3H-raw" secondAttribute="leading" constant="8" id="fOA-tk-bqG"/>
+                                            <constraint firstAttribute="trailing" secondItem="EUm-8j-wue" secondAttribute="trailing" constant="50" id="iND-B9-t0K"/>
+                                            <constraint firstItem="wFF-9c-ckv" firstAttribute="leading" secondItem="vFJ-3H-raw" secondAttribute="leading" constant="15" id="lhh-Sq-DaZ"/>
+                                            <constraint firstItem="CxA-4s-Wbp" firstAttribute="leading" secondItem="vFJ-3H-raw" secondAttribute="leading" constant="100" id="pK0-d2-Ydc"/>
+                                            <constraint firstAttribute="height" constant="1500" id="r9D-Yv-1aY"/>
+                                            <constraint firstItem="lFA-61-8si" firstAttribute="leading" secondItem="vFJ-3H-raw" secondAttribute="leading" constant="40" id="rKO-AD-Ida"/>
+                                            <constraint firstItem="x7K-6U-7hX" firstAttribute="top" secondItem="CxA-4s-Wbp" secondAttribute="bottom" constant="2" id="tBe-rd-md1"/>
+                                            <constraint firstAttribute="trailing" secondItem="kDi-nv-FeL" secondAttribute="trailing" constant="15" id="umn-2y-TQl"/>
+                                            <constraint firstAttribute="trailing" secondItem="A6p-QU-2qE" secondAttribute="trailing" constant="90" id="vpP-Rh-M9e"/>
+                                            <constraint firstItem="A6p-QU-2qE" firstAttribute="leading" secondItem="vFJ-3H-raw" secondAttribute="leading" constant="90" id="vso-ip-gTP"/>
+                                            <constraint firstItem="gt8-sZ-ej5" firstAttribute="top" secondItem="x7K-6U-7hX" secondAttribute="bottom" constant="12.5" id="wbc-1m-XUr"/>
+                                            <constraint firstItem="x7K-6U-7hX" firstAttribute="top" secondItem="CxA-4s-Wbp" secondAttribute="bottom" constant="2" id="x5C-p8-LUh"/>
+                                            <constraint firstItem="zOb-OV-bbS" firstAttribute="top" secondItem="gt8-sZ-ej5" secondAttribute="bottom" constant="8" symbolic="YES" id="x8R-9x-7iy"/>
+                                            <constraint firstAttribute="trailing" secondItem="bwd-MC-OcZ" secondAttribute="trailing" constant="12" id="xv9-42-glV"/>
+                                            <constraint firstItem="CxA-4s-Wbp" firstAttribute="top" secondItem="bwd-MC-OcZ" secondAttribute="bottom" constant="29.5" id="ySx-S8-gaR"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="vFJ-3H-raw" secondAttribute="bottom" id="FdS-Z7-9BW"/>
+                                    <constraint firstItem="vFJ-3H-raw" firstAttribute="top" secondItem="0W4-Dw-5mC" secondAttribute="top" id="G9Y-zB-hde"/>
+                                    <constraint firstAttribute="trailing" secondItem="vFJ-3H-raw" secondAttribute="trailing" id="XDW-Ms-me2"/>
+                                    <constraint firstItem="vFJ-3H-raw" firstAttribute="leading" secondItem="0W4-Dw-5mC" secondAttribute="leading" id="kqN-e0-0FS"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DLP-Tl-V9i"/>
+                        <color key="backgroundColor" red="1" green="0.93486077888294117" blue="0.94711793254070709" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="0W4-Dw-5mC" secondAttribute="bottom" id="GM1-xz-ZUB"/>
+                            <constraint firstItem="0W4-Dw-5mC" firstAttribute="leading" secondItem="DLP-Tl-V9i" secondAttribute="leading" id="KD2-ac-UQt"/>
+                            <constraint firstItem="0W4-Dw-5mC" firstAttribute="trailing" secondItem="DLP-Tl-V9i" secondAttribute="trailing" id="KSJ-cL-ChI"/>
+                            <constraint firstItem="0W4-Dw-5mC" firstAttribute="trailing" secondItem="DLP-Tl-V9i" secondAttribute="trailing" id="Pdg-TW-XfB"/>
+                            <constraint firstItem="vFJ-3H-raw" firstAttribute="width" secondItem="JHY-bk-avF" secondAttribute="width" id="Qbl-n9-v0B"/>
+                            <constraint firstItem="0W4-Dw-5mC" firstAttribute="top" secondItem="DLP-Tl-V9i" secondAttribute="top" id="R29-fp-9z8"/>
+                            <constraint firstItem="0W4-Dw-5mC" firstAttribute="leading" secondItem="DLP-Tl-V9i" secondAttribute="leading" id="ScA-4S-UgP"/>
+                            <constraint firstAttribute="bottom" secondItem="0W4-Dw-5mC" secondAttribute="bottom" id="dJk-9y-8hw"/>
+                            <constraint firstItem="vFJ-3H-raw" firstAttribute="height" secondItem="JHY-bk-avF" secondAttribute="height" multiplier="1.78147" id="o1Y-xI-XIi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q4c-WP-FXq"/>
+                    <connections>
+                        <outlet property="factText" destination="lFA-61-8si" id="IoH-7s-rpy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V59-aj-N2Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1846.376811594203" y="-617.41071428571422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -200,7 +368,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zq5-Pz-fCm">
-                                <rect key="frame" x="120" y="175" width="153" height="35"/>
+                                <rect key="frame" x="10" y="177" width="153" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.39879949417970506" blue="0.75711072810805846" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -211,16 +379,28 @@
                                     <segue destination="6OL-Dk-Rms" kind="show" id="lql-Wl-bOo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhW-CZ-usj">
-                                <rect key="frame" x="251" y="540" width="143" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pvn-Ws-yEb">
+                                <rect key="frame" x="10" y="419" width="134" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.39879949419999999" blue="0.75711072810000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="The After Effects">
+                                <buttonConfiguration key="configuration" style="plain" title="Reproductive Health">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Vao-pK-d8g" kind="show" id="CMa-mi-fCQ"/>
+                                    <segue destination="oia-v7-XsA" kind="show" id="4cI-Hb-Ts3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhW-CZ-usj">
+                                <rect key="frame" x="255" y="539" width="171" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.39879949419999999" blue="0.75711072810000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Trauma Associated with Violence">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Vao-pK-d8g" kind="show" id="6n5-yJ-epA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the buttons below to learn more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czd-Ec-kkA">
@@ -230,11 +410,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="ocF-lE-SO7">
-                                <rect key="frame" x="82" y="204" width="229" height="404"/>
+                                <rect key="frame" x="82" y="203" width="229" height="404"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXi-az-Npq">
-                                <rect key="frame" x="276" y="258" width="128" height="67"/>
+                                <rect key="frame" x="286" y="316" width="128" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.91976243257522583" green="0.32202042832844213" blue="0.70975339925719405" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -242,8 +422,9 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Violence Against Women">
                                             <attributes>
-                                                <font key="NSFont" size="16" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                <color key="NSColor" red="0.99181265782828287" green="0.46561063907360184" blue="0.79560594367531157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="16" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -275,46 +456,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Violence Against Women is Worldwide. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEX-7f-HTk">
-                                <rect key="frame" x="21" y="105" width="373" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Violence Against Women is Worldwide. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEX-7f-HTk">
+                                <rect key="frame" x="7" y="105" width="400" height="28"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                <color key="textColor" red="1" green="0.39879949419999999" blue="0.75711072810000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="world-map-pink" translatesAutoresizingMaskIntoConstraints="NO" id="yeX-PU-QZ8">
-                                <rect key="frame" x="0.0" y="105" width="414" height="318"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="world-map-pink" translatesAutoresizingMaskIntoConstraints="NO" id="yeX-PU-QZ8">
+                                <rect key="frame" x="1" y="105" width="412" height="318"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="318" id="V2A-QZ-s9h"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click on the pins to learn more" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEH-NY-xKq">
-                                <rect key="frame" x="91" y="583" width="231" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on the pins above to learn more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEH-NY-xKq">
+                                <rect key="frame" x="45" y="543" width="324" height="24"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                 <color key="textColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2G-uf-sq4">
-                                <rect key="frame" x="148" y="627" width="117" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2G-uf-sq4">
+                                <rect key="frame" x="140" y="594" width="134" height="35.5"/>
+                                <color key="tintColor" red="0.74526473189999998" green="0.0" blue="0.020925596769999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Statistics"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Statistics">
+                                    <fontDescription key="titleFontDescription" name="Galvji" family="Galvji" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="stats:" destination="Udl-Ni-500" eventType="touchUpInside" id="R0w-CW-tHy"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pie-charts-1" translatesAutoresizingMaskIntoConstraints="NO" id="uwh-Sg-22R">
-                                <rect key="frame" x="216" y="717" width="175" height="145"/>
+                                <rect key="frame" x="216" y="682" width="175" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="35%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xNa-ir-Xp3">
-                                <rect key="frame" x="227" y="717" width="82" height="65"/>
+                                <rect key="frame" x="227" y="682" width="82" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.94328004121780396" green="0.42176427715854148" blue="0.0003173813586212727" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SSY-f0-4hb">
-                                <rect key="frame" x="10" y="695" width="209" height="189"/>
+                                <rect key="frame" x="10" y="660" width="209" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Violence against Women is a global Pandemic. 35% of women will experience some form of violence in their lifetime. These figures do not include sexual harassment.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -391,17 +574,42 @@
                                     <segue destination="YRT-ET-m7d" kind="show" id="YD7-EI-cMQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" highlighted="YES" showsExpansionTextWhenTruncated="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xey-dj-Vzb">
-                                <rect key="frame" x="19" y="282" width="375" height="348"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" highlighted="YES" showsExpansionTextWhenTruncated="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xey-dj-Vzb">
+                                <rect key="frame" x="18" y="378" width="378" height="132"/>
                                 <string key="text">The United Nations defines violence against women as "any act of gender-based violence that results in, or is likely to result in, physical, sexual, or mental harm or suffering to women, including threats of such acts, coercion or arbitrary deprivation of liberty, whether occurring in public or in private life."</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCc-Ud-rCi">
+                                <rect key="frame" x="120" y="815" width="174" height="46.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.2607847619" blue="0.53990327599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qXt-fB-EJK"/>
                         <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="yeX-PU-QZ8" firstAttribute="top" secondItem="qXt-fB-EJK" secondAttribute="top" constant="61" id="0gw-2J-5AJ"/>
+                            <constraint firstItem="yeX-PU-QZ8" firstAttribute="leading" secondItem="NEj-tA-6Zk" secondAttribute="leading" constant="1" id="6d0-rn-oR8"/>
+                            <constraint firstItem="qXt-fB-EJK" firstAttribute="trailing" secondItem="f2G-uf-sq4" secondAttribute="trailing" constant="140" id="966-OO-YWN"/>
+                            <constraint firstItem="qXt-fB-EJK" firstAttribute="trailing" secondItem="DEH-NY-xKq" secondAttribute="trailing" constant="45" id="DIU-bX-ChM"/>
+                            <constraint firstItem="DEH-NY-xKq" firstAttribute="leading" secondItem="qXt-fB-EJK" secondAttribute="leading" constant="45" id="F0y-7W-b4e"/>
+                            <constraint firstItem="f2G-uf-sq4" firstAttribute="top" secondItem="DEH-NY-xKq" secondAttribute="bottom" constant="27" id="GoG-dj-tbR"/>
+                            <constraint firstItem="qXt-fB-EJK" firstAttribute="trailing" secondItem="yeX-PU-QZ8" secondAttribute="trailing" constant="1" id="Kuy-IX-8D7"/>
+                            <constraint firstItem="qXt-fB-EJK" firstAttribute="trailing" secondItem="YEX-7f-HTk" secondAttribute="trailing" constant="7" id="Lo9-qN-eXz"/>
+                            <constraint firstItem="Xey-dj-Vzb" firstAttribute="top" secondItem="yeX-PU-QZ8" secondAttribute="bottom" constant="-45" id="PDk-Au-ueA"/>
+                            <constraint firstItem="f2G-uf-sq4" firstAttribute="leading" secondItem="qXt-fB-EJK" secondAttribute="leading" constant="140" id="Qft-A7-nok"/>
+                            <constraint firstItem="Xey-dj-Vzb" firstAttribute="leading" secondItem="qXt-fB-EJK" secondAttribute="leading" constant="18" id="jeq-cB-sEW"/>
+                            <constraint firstItem="YEX-7f-HTk" firstAttribute="top" secondItem="qXt-fB-EJK" secondAttribute="top" constant="61" id="jr5-8F-K3h"/>
+                            <constraint firstItem="DEH-NY-xKq" firstAttribute="top" secondItem="Xey-dj-Vzb" secondAttribute="bottom" constant="33" id="lyk-67-MoB"/>
+                            <constraint firstItem="YEX-7f-HTk" firstAttribute="leading" secondItem="qXt-fB-EJK" secondAttribute="leading" constant="7" id="qM2-i8-4DP"/>
+                            <constraint firstItem="qXt-fB-EJK" firstAttribute="trailing" secondItem="Xey-dj-Vzb" secondAttribute="trailing" constant="18" id="zbu-LH-RBF"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7JU-BW-OT7"/>
                     <connections>
@@ -424,8 +632,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Japan/ China" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQU-wD-P1X">
-                                <rect key="frame" x="186" y="44" width="99" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Japan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQU-wD-P1X">
+                                <rect key="frame" x="186" y="44" width="47" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -470,7 +678,7 @@
         <scene sceneID="c3i-JG-BSW">
             <objects>
                 <viewController id="B4y-Gd-GbG" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Fil-Jl-s6U">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Fil-Jl-s6U">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -490,7 +698,8 @@
                                                 <attributedString key="attributedText">
                                                     <fragment content="Femicides in Mexico">
                                                         <attributes>
-                                                            <font key="NSFont" size="21" name="SFMono-Heavy"/>
+                                                            <color key="NSColor" red="1" green="0.29453337513719735" blue="0.70927830540205472" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="23" name="Futura-Medium"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -508,9 +717,9 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ly3-cz-pbs">
                                                 <rect key="frame" x="19" y="317" width="383" height="280"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">This is unfortunately not an uncommon occurrence. In Mexico, there are at least 2 confirmed fatalities of women every day, and the statistics are rising, reaching at least 1,000 confirmed deaths annually. 
+                                                <string key="text">This is unfortunately not an uncommon occurrence. In Mexico, there are at least 2 confirmed fatalities of women every day, and the statistics are rising, reaching at least 1,000 confirmed deaths annually. 
 Many femicides do not undergo proper investigations, instead they’re tossed onto the growing pile of the 65% unrecognized femicides. Those that are confirmed, added to the statistics,  and receive fair trials are hardly the majority. 26 nations in Latin America and the Caribbean had approximately 4,091 femicide victims as of 2020; and many, not included in the data, did not receive the necessary assistance or were flatly denied their rights. 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -579,10 +788,10 @@ Many femicides do not undergo proper investigations, instead they’re tossed on
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f9Y-lT-GYe">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WQz-k3-5Sh">
-                                        <rect key="frame" x="0.0" y="-8" width="414" height="1200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1127.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCX-mf-P4o">
                                                 <rect key="frame" x="15" y="151" width="404" height="165"/>
@@ -612,30 +821,30 @@ Many femicides do not undergo proper investigations, instead they’re tossed on
                                                 <color key="textColor" red="0.74526473189999998" green="0.0" blue="0.020925596769999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15M-RE-uXV">
-                                                <rect key="frame" x="220" y="969" width="174" height="79"/>
-                                                <color key="tintColor" red="1" green="0.2607847619" blue="0.53990327599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="&lt; Back to Main Page">
-                                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="show" id="JuA-HU-W46"/>
-                                                </connections>
-                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Trauma Associated with Violence" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1Z-2b-4Ua">
                                                 <rect key="frame" x="10" y="60" width="394" height="68"/>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
                                                 <color key="textColor" red="1" green="0.2607847619" blue="0.53990327599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZy-c3-QOF">
-                                                <rect key="frame" x="15" y="343" width="379" height="124"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZy-c3-QOF">
+                                                <rect key="frame" x="15" y="337" width="379" height="124"/>
                                                 <string key="text">Usually, the psychological responses of helplessness, shame, and guilt in the face of a severe stressor are what lead to these experiences.</string>
                                                 <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="21"/>
                                                 <color key="textColor" red="0.94328004119999997" green="0.35780225700000001" blue="0.13530046809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15M-RE-uXV">
+                                                <rect key="frame" x="110" y="960" width="194" height="46.5"/>
+                                                <color key="tintColor" red="1" green="0.2607847619" blue="0.53990327599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="DN7-u3-c64"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -643,14 +852,18 @@ Many femicides do not undergo proper investigations, instead they’re tossed on
                                             <constraint firstAttribute="trailing" secondItem="0Fx-8v-UP4" secondAttribute="trailing" constant="85" id="AWe-RR-9lM"/>
                                             <constraint firstAttribute="trailing" secondItem="p4T-2p-Vrg" secondAttribute="trailing" constant="8" id="BBJ-db-REg"/>
                                             <constraint firstAttribute="height" constant="1200" id="CWd-7s-pE7"/>
+                                            <constraint firstItem="15M-RE-uXV" firstAttribute="leading" secondItem="WQz-k3-5Sh" secondAttribute="leading" constant="110" id="Cu4-P8-3cj"/>
                                             <constraint firstItem="kZy-c3-QOF" firstAttribute="leading" secondItem="WQz-k3-5Sh" secondAttribute="leading" constant="15" id="Fsd-jV-ysP"/>
                                             <constraint firstItem="g1Z-2b-4Ua" firstAttribute="leading" secondItem="WQz-k3-5Sh" secondAttribute="leading" constant="10" id="GkV-oF-Wt5"/>
+                                            <constraint firstItem="15M-RE-uXV" firstAttribute="top" secondItem="p4T-2p-Vrg" secondAttribute="bottom" constant="6" id="I60-1K-hk3"/>
                                             <constraint firstItem="p4T-2p-Vrg" firstAttribute="leading" secondItem="WQz-k3-5Sh" secondAttribute="leading" constant="8" id="Mgl-d3-tSX"/>
                                             <constraint firstAttribute="trailing" secondItem="g1Z-2b-4Ua" secondAttribute="trailing" constant="10" id="QLI-KV-ptL"/>
+                                            <constraint firstAttribute="trailing" secondItem="15M-RE-uXV" secondAttribute="trailing" constant="110" id="SML-yX-GbY"/>
                                             <constraint firstItem="PCX-mf-P4o" firstAttribute="leading" secondItem="WQz-k3-5Sh" secondAttribute="leading" constant="15" id="VXQ-z9-QYC"/>
+                                            <constraint firstItem="15M-RE-uXV" firstAttribute="top" secondItem="p4T-2p-Vrg" secondAttribute="bottom" constant="6" id="VhT-rT-lxO"/>
                                             <constraint firstItem="p4T-2p-Vrg" firstAttribute="top" secondItem="lRz-6A-1eE" secondAttribute="bottom" constant="20" id="XfD-1p-ac2"/>
                                             <constraint firstItem="0Fx-8v-UP4" firstAttribute="leading" secondItem="WQz-k3-5Sh" secondAttribute="leading" constant="85" id="Z2Z-gF-JOC"/>
-                                            <constraint firstItem="15M-RE-uXV" firstAttribute="leading" secondItem="WQz-k3-5Sh" secondAttribute="leading" constant="220" id="d31-ci-Mjr"/>
+                                            <constraint firstItem="15M-RE-uXV" firstAttribute="top" secondItem="p4T-2p-Vrg" secondAttribute="bottom" constant="6" id="biI-Zh-uIt"/>
                                             <constraint firstItem="lRz-6A-1eE" firstAttribute="top" secondItem="0Fx-8v-UP4" secondAttribute="bottom" constant="8" id="da9-WL-q03"/>
                                             <constraint firstItem="lRz-6A-1eE" firstAttribute="leading" secondItem="WQz-k3-5Sh" secondAttribute="leading" constant="55" id="dq5-DS-Rg4"/>
                                             <constraint firstItem="0Fx-8v-UP4" firstAttribute="top" secondItem="kZy-c3-QOF" secondAttribute="bottom" constant="30" id="gV2-O9-PYR"/>
@@ -658,7 +871,6 @@ Many femicides do not undergo proper investigations, instead they’re tossed on
                                             <constraint firstAttribute="trailing" secondItem="kZy-c3-QOF" secondAttribute="trailing" constant="20" id="mC8-sQ-e3r"/>
                                             <constraint firstItem="15M-RE-uXV" firstAttribute="top" secondItem="p4T-2p-Vrg" secondAttribute="bottom" constant="15" id="nLE-wU-FVX"/>
                                             <constraint firstAttribute="trailing" secondItem="lRz-6A-1eE" secondAttribute="trailing" constant="55" id="nhw-1o-u57"/>
-                                            <constraint firstAttribute="trailing" secondItem="15M-RE-uXV" secondAttribute="trailing" constant="20" id="oYe-7K-Ycx"/>
                                             <constraint firstItem="kZy-c3-QOF" firstAttribute="top" secondItem="PCX-mf-P4o" secondAttribute="bottom" constant="21" id="s0Z-FS-JCG"/>
                                             <constraint firstItem="PCX-mf-P4o" firstAttribute="top" secondItem="g1Z-2b-4Ua" secondAttribute="bottom" constant="23" id="zOr-lh-Un6"/>
                                         </constraints>
@@ -692,12 +904,13 @@ Many femicides do not undergo proper investigations, instead they’re tossed on
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="JuA-HU-W46"/>
+        <segue reference="6il-MF-Yl5"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="030320amer_mexico_femicides_0" width="512" height="341"/>
         <image name="Image" width="153.5" height="256"/>
         <image name="Screen Shot 2022-08-17 at 1.47.15 PM" width="750" height="514"/>
+        <image name="Screen_Shot_2022-08-18_at_10.24.30_AM-removebg-preview" width="592" height="422"/>
         <image name="mappin" catalog="system" width="105" height="128"/>
         <image name="pie-charts-1" width="600" height="600"/>
         <image name="world-map-pink" width="1052.3621826171875" height="580"/>

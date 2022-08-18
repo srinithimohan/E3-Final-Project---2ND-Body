@@ -26,7 +26,7 @@ class violenceHome: UIViewController {
     @IBAction func stats(_ sender: UIButton) {
         if percentage.isHidden != true && chart.isHidden != true && data.isHidden != true {
             percentage.isHidden = true && chart.isHidden == true && data.isHidden == true
-        }else {percentage.isHidden = false && chart.isHidden = false && data.isHidden = false}
+        }else {percentage.isHidden = false && chart.isHidden == false && data.isHidden == false}
     
 
     /*

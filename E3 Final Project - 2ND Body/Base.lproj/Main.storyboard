@@ -107,11 +107,11 @@
                                 <color key="textColor" red="1" green="0.86070221840000005" blue="0.91504575259999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ikt-dF-zfq">
-                                <rect key="frame" x="20" y="714.5" width="164" height="66"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ikt-dF-zfq">
+                                <rect key="frame" x="125" y="768" width="164" height="40"/>
                                 <color key="tintColor" red="1" green="0.2607847619" blue="0.53990327599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="&lt; Back to Main Page">
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -120,7 +120,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zmC-82-5ee"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="bys-yC-1fk" firstAttribute="top" secondItem="zmC-82-5ee" secondAttribute="top" id="0zQ-dJ-Sa4"/>
                             <constraint firstItem="G8h-F9-8Z6" firstAttribute="leading" secondItem="zmC-82-5ee" secondAttribute="leading" constant="20" id="24T-2r-d9y"/>
@@ -164,7 +164,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0te-93-Lbg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="73.913043478260875" y="-558.48214285714278"/>
+            <point key="canvasLocation" x="-219" y="-575"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mhO-v2-Ios">
+            <objects>
+                <viewController id="Xxa-GV-fP3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e0e-P2-hLj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Africa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ooz-Zq-dCb">
+                                <rect key="frame" x="170" y="35" width="45" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="T3a-Ey-GpY"/>
+                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xQa-av-9Dg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p9C-r1-nuk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1986" y="-575"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -175,7 +200,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zq5-Pz-fCm">
-                                <rect key="frame" x="131" y="173" width="153" height="35"/>
+                                <rect key="frame" x="120" y="175" width="153" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.39879949417970506" blue="0.75711072810805846" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -187,11 +212,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhW-CZ-usj">
-                                <rect key="frame" x="231" y="241" width="174" height="35"/>
+                                <rect key="frame" x="251" y="540" width="143" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.39879949419999999" blue="0.75711072810000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Trauma of Women who face Violence">
+                                <buttonConfiguration key="configuration" style="plain" title="The After Effects">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -204,9 +229,32 @@
                                 <color key="textColor" red="0.86953519570707072" green="0.36569407607591353" blue="0.32979537741341619" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="ocF-lE-SO7">
+                                <rect key="frame" x="82" y="204" width="229" height="404"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXi-az-Npq">
+                                <rect key="frame" x="276" y="258" width="128" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.91976243257522583" green="0.32202042832844213" blue="0.70975339925719405" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Violence Against Women">
+                                            <attributes>
+                                                <font key="NSFont" size="16" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Udl-Ni-500" kind="show" id="BAL-5C-fuL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="czd-Ec-kkA" secondAttribute="trailing" constant="10" id="1Ya-wh-s6F"/>
                             <constraint firstItem="czd-Ec-kkA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="jAW-9f-zJ4"/>
@@ -217,29 +265,325 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-83" y="223"/>
+            <point key="canvasLocation" x="-1033.3333333333335" y="-574.55357142857144"/>
+        </scene>
+        <!--violenceHome-->
+        <scene sceneID="kdp-9F-Wz3">
+            <objects>
+                <viewController title="violenceHome" modalTransitionStyle="flipHorizontal" modalPresentationStyle="fullScreen" id="Udl-Ni-500" customClass="violenceHome" customModule="E3_Final_Project___2ND_Body" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NEj-tA-6Zk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Violence Against Women is Worldwide. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEX-7f-HTk">
+                                <rect key="frame" x="21" y="105" width="373" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="world-map-pink" translatesAutoresizingMaskIntoConstraints="NO" id="yeX-PU-QZ8">
+                                <rect key="frame" x="0.0" y="105" width="414" height="318"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click on the pins to learn more" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEH-NY-xKq">
+                                <rect key="frame" x="91" y="583" width="231" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2G-uf-sq4">
+                                <rect key="frame" x="148" y="627" width="117" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Statistics"/>
+                                <connections>
+                                    <action selector="stats:" destination="Udl-Ni-500" eventType="touchUpInside" id="R0w-CW-tHy"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pie-charts-1" translatesAutoresizingMaskIntoConstraints="NO" id="uwh-Sg-22R">
+                                <rect key="frame" x="216" y="717" width="175" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="35%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xNa-ir-Xp3">
+                                <rect key="frame" x="227" y="717" width="82" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.94328004121780396" green="0.42176427715854148" blue="0.0003173813586212727" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SSY-f0-4hb">
+                                <rect key="frame" x="10" y="695" width="209" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Violence against Women is a global Pandemic. 35% of women will experience some form of violence in their lifetime. These figures do not include sexual harassment.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="mappin" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="TEl-cM-T1o">
+                                <rect key="frame" x="68" y="231.5" width="29" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.61647790670000002" green="0.0" blue="0.14421723319999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="mappin" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="C6c-ww-vSq">
+                                <rect key="frame" x="190" y="242" width="26" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.61647790670000002" green="0.0" blue="0.14421723319999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGm-q4-7FD">
+                                <rect key="frame" x="190" y="232" width="29" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                <connections>
+                                    <segue destination="Xxa-GV-fP3" kind="show" id="mUe-UP-bG4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKf-5g-q3d">
+                                <rect key="frame" x="68" y="232" width="29" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                <connections>
+                                    <segue destination="B4y-Gd-GbG" kind="show" id="3cO-6x-DPe"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="mappin" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="D5k-Lk-jor">
+                                <rect key="frame" x="216" y="181.5" width="26" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.61647790670000002" green="0.0" blue="0.14421723319999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="mappin" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6ju-zw-ATd">
+                                <rect key="frame" x="338" y="209.5" width="28" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.61647790670000002" green="0.0" blue="0.14421723319999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="mappin" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cAn-hE-tiu">
+                                <rect key="frame" x="52" y="168.5" width="29" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.61647790670000002" green="0.0" blue="0.14421723319999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRR-Nr-l6Y">
+                                <rect key="frame" x="52" y="169" width="29" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                <connections>
+                                    <segue destination="1yZ-om-7oQ" kind="show" id="7V0-7S-ILU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaA-se-Jo6">
+                                <rect key="frame" x="215" y="178" width="29" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                <connections>
+                                    <segue destination="e6z-zk-XEf" kind="show" id="YpB-07-oaM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MK7-W4-ty2">
+                                <rect key="frame" x="337" y="198" width="29" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                <connections>
+                                    <segue destination="YRT-ET-m7d" kind="show" id="YD7-EI-cMQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" highlighted="YES" showsExpansionTextWhenTruncated="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xey-dj-Vzb">
+                                <rect key="frame" x="19" y="282" width="375" height="348"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The United Nations defines violence against women as "any act of gender-based violence that results in, or is likely to result in, physical, sexual, or mental harm or suffering to women, including threats of such acts, coercion or arbitrary deprivation of liberty, whether occurring in public or in private life."</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qXt-fB-EJK"/>
+                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7JU-BW-OT7"/>
+                    <connections>
+                        <outlet property="chart" destination="uwh-Sg-22R" id="YEn-BC-VrY"/>
+                        <outlet property="click" destination="DEH-NY-xKq" id="Bwy-PD-bej"/>
+                        <outlet property="data" destination="SSY-f0-4hb" id="8D9-YM-Iho"/>
+                        <outlet property="percentage" destination="xNa-ir-Xp3" id="brA-3c-yfg"/>
+                        <outlet property="unDef" destination="Xey-dj-Vzb" id="u6A-qi-Mnf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dip-A0-Z0m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1033.3333333333335" y="139.95535714285714"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bCw-gy-PdU">
+            <objects>
+                <viewController id="YRT-ET-m7d" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y7Q-zh-TSv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Japan/ China" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQU-wD-P1X">
+                                <rect key="frame" x="186" y="44" width="99" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="H0s-Xf-MWh"/>
+                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4Db-hE-CxD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nou-0D-Evb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2497.1014492753625" y="139.95535714285714"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gFG-0N-eYd">
+            <objects>
+                <viewController id="e6z-zk-XEf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qov-EN-koo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Europe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnf-Zi-mDb">
+                                <rect key="frame" x="148" y="44" width="54" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1qi-mT-3YH"/>
+                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UKN-KH-W74"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="38P-Cg-Nfi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1781" y="140"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="c3i-JG-BSW">
+            <objects>
+                <viewController id="B4y-Gd-GbG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fil-Jl-s6U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dEj-ji-sSR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pxI-6r-4ad">
+                                        <rect key="frame" x="-7" y="-13" width="413" height="1500"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="030320amer_mexico_femicides_0" translatesAutoresizingMaskIntoConstraints="NO" id="Bpq-Od-gEb">
+                                                <rect key="frame" x="19" y="118" width="205" height="212"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JR-04-xby">
+                                                <rect key="frame" x="82" y="67" width="254" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Femicides in Mexico">
+                                                        <attributes>
+                                                            <font key="NSFont" size="21" name="SFMono-Heavy"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2o8-uW-qhy">
+                                                <rect key="frame" x="232" y="47" width="181" height="355"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text"> 229 confirmed femicides occurred in Mexico during the first three months of 2022. A femicide occurs when a woman is killed only based on gender. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ly3-cz-pbs">
+                                                <rect key="frame" x="19" y="317" width="383" height="280"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">This is unfortunately not an uncommon occurrence. In Mexico, there are at least 2 confirmed fatalities of women every day, and the statistics are rising, reaching at least 1,000 confirmed deaths annually. 
+Many femicides do not undergo proper investigations, instead they’re tossed onto the growing pile of the 65% unrecognized femicides. Those that are confirmed, added to the statistics,  and receive fair trials are hardly the majority. 26 nations in Latin America and the Caribbean had approximately 4,091 femicide victims as of 2020; and many, not included in the data, did not receive the necessary assistance or were flatly denied their rights. 
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="7yl-AB-VcK"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pxI-6r-4ad" firstAttribute="height" secondItem="dEj-ji-sSR" secondAttribute="height" multiplier="1.78147" id="Cof-2j-Nxf"/>
+                                    <constraint firstItem="pxI-6r-4ad" firstAttribute="width" secondItem="dEj-ji-sSR" secondAttribute="width" multiplier="0.997585" id="wwX-zg-KfX"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="P10-fq-PNc"/>
+                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="dEj-ji-sSR" firstAttribute="top" secondItem="Fil-Jl-s6U" secondAttribute="top" id="YOB-Dm-SSZ"/>
+                            <constraint firstItem="dEj-ji-sSR" firstAttribute="leading" secondItem="P10-fq-PNc" secondAttribute="leading" id="ZJ1-mk-ZIw"/>
+                            <constraint firstItem="dEj-ji-sSR" firstAttribute="trailing" secondItem="P10-fq-PNc" secondAttribute="trailing" id="dSt-zB-6qk"/>
+                            <constraint firstItem="dEj-ji-sSR" firstAttribute="bottom" secondItem="P10-fq-PNc" secondAttribute="bottom" id="wt6-cc-b0b"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GAe-VL-vDt"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="haa-EP-GjP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-242.0289855072464" y="139.95535714285714"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="j77-EN-eMQ">
+            <objects>
+                <viewController id="1yZ-om-7oQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zln-rz-SQV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Indigenous Women in Canada" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRj-mp-dvu">
+                                <rect key="frame" x="106" y="44" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0BX-mp-WYf"/>
+                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="849-ok-dGM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hCM-b3-1Zs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="534.78260869565224" y="139.95535714285714"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UpC-rW-t8u">
             <objects>
                 <viewController id="Vao-pK-d8g" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="2Xy-E9-SN3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="788"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f9Y-lT-GYe">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WQz-k3-5Sh">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <rect key="frame" x="0.0" y="-8" width="414" height="1200"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZy-c3-QOF">
-                                                <rect key="frame" x="15" y="337" width="379" height="124"/>
-                                                <string key="text">Usually, the psychological responses of helplessness, shame, and guilt in the face of a severe stressor are what lead to these experiences.</string>
-                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="21"/>
-                                                <color key="textColor" red="0.94328004119999997" green="0.35780225700000001" blue="0.13530046809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCX-mf-P4o">
                                                 <rect key="frame" x="15" y="151" width="404" height="165"/>
                                                 <string key="text">The 2ND Body team works to raise awareness of the negative consequences that domestic violence, sexual assault, gender-based violence, and LGBTQIA+-based violence—events that cause trauma and quickly develop into PTSD—have on women.</string>
@@ -279,14 +623,21 @@
                                                     <segue destination="BYZ-38-t0r" kind="show" id="JuA-HU-W46"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trauma of Women who face Violence" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1Z-2b-4Ua">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Trauma Associated with Violence" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1Z-2b-4Ua">
                                                 <rect key="frame" x="10" y="60" width="394" height="68"/>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
                                                 <color key="textColor" red="1" green="0.2607847619" blue="0.53990327599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZy-c3-QOF">
+                                                <rect key="frame" x="15" y="343" width="379" height="124"/>
+                                                <string key="text">Usually, the psychological responses of helplessness, shame, and guilt in the face of a severe stressor are what lead to these experiences.</string>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="21"/>
+                                                <color key="textColor" red="0.94328004119999997" green="0.35780225700000001" blue="0.13530046809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstItem="g1Z-2b-4Ua" firstAttribute="top" secondItem="WQz-k3-5Sh" secondAttribute="top" constant="60" id="8u8-vH-9wA"/>
                                             <constraint firstAttribute="trailing" secondItem="0Fx-8v-UP4" secondAttribute="trailing" constant="85" id="AWe-RR-9lM"/>
@@ -333,18 +684,23 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zll-wh-dJp"/>
-                    <size key="freeformSize" width="414" height="896"/>
+                    <size key="freeformSize" width="414" height="842"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fZa-jr-Ju5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="926" y="-50"/>
+            <point key="canvasLocation" x="534.78260869565224" y="-574.55357142857144"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="JuA-HU-W46"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="030320amer_mexico_femicides_0" width="512" height="341"/>
+        <image name="Image" width="153.5" height="256"/>
         <image name="Screen Shot 2022-08-17 at 1.47.15 PM" width="750" height="514"/>
+        <image name="mappin" catalog="system" width="105" height="128"/>
+        <image name="pie-charts-1" width="600" height="600"/>
+        <image name="world-map-pink" width="1052.3621826171875" height="580"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

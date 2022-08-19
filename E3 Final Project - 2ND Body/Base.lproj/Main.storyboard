@@ -166,43 +166,210 @@
             </objects>
             <point key="canvasLocation" x="-219" y="-575"/>
         </scene>
-        <!--View Controller-->
+        <!--Africa Violence-->
         <scene sceneID="mhO-v2-Ios">
             <objects>
-                <viewController id="Xxa-GV-fP3" sceneMemberID="viewController">
+                <viewController id="Xxa-GV-fP3" customClass="africaViolence" customModule="E3_Final_Project___2ND_Body" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e0e-P2-hLj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="861"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Africa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ooz-Zq-dCb">
-                                <rect key="frame" x="170" y="35" width="45" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oNt-12-Meu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="861"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R4h-18-dbp">
+                                        <rect key="frame" x="0.0" y="15" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Violence in Africa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBg-uP-Qxe">
+                                                <rect key="frame" x="99" y="68" width="217" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="28"/>
+                                                <color key="textColor" red="0.56015251470000005" green="0.1313056655" blue="0.61647790670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVm-ok-BLL">
+                                                <rect key="frame" x="0.0" y="8" width="114" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Previous"/>
+                                                <connections>
+                                                    <segue destination="Udl-Ni-500" kind="show" id="RkG-TL-cLg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfx-cs-8TH">
+                                                <rect key="frame" x="306" y="0.0" width="108" height="52"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="eVd-ha-v4f"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="50307290_401" translatesAutoresizingMaskIntoConstraints="NO" id="zQP-u9-xis">
+                                                <rect key="frame" x="8" y="136" width="217" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Violence against women ranges frm physical and sexual violence to genital mutilation and trafficking." lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVx-NZ-WZU">
+                                                <rect key="frame" x="249" y="89" width="165" height="222"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWK-9t-FT1">
+                                                <rect key="frame" x="8" y="275" width="371" height="169"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Around 44% of African women have been victims of gender based violence. Survivors of violence endure constant stigma due to their experience. Below, several stories of African Women are outlined, to break the silence. These stories are firsthand accounts from the courageous survivors. 
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSL-yo-j6d">
+                                                <rect key="frame" x="89" y="452" width="325" height="285"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">"I had a boyfriend who was very abusive. I can't remember how many times he beat me after a small misunderstanding. I remember this one time that I shaved my hair. It was my decision but he was very angry that I went to shave my hair without getting his permission. He beat me. The following day, he came to apologize and I accepted his apology. A week later, he asked me to wash his clothes. I refused because I wasn't feeling well but he didn't accept that. I still remember the punches I got that day because I nearly died. That man could abuse me one day and apologize the next. I kept accepting his apologies until one day I decided to leave him. It wasn't easy but I did. My advice to other women experiencing abuse is to leave before it's too late! Abusive men are very cunning, they abuse you today and bring you gifts the following day. Those gifts are not worth dying for — leave that abusive relationship now!"</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQj-yu-2ph">
+                                                <rect key="frame" x="0.0" y="738" width="299" height="333"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">"I was in the center of Mogadishu when two men in a car sprayed a painful liquid onto my face and then forced me into their car. I asked them: 'Where are you taking me? Leave me alone.' I tried to wave my hands near the car window to draw attention to myself, but one of the men was sitting next to me in the back seat, and he sprayed the liquid on my face and kept hitting me. After driving towards the outskirts of town, there were problems with the car, and my kidnappers got out to look. They were busy talking on their phones, so I got out of the car to escape, but one of the men kicked me and ordered me to stay in the car. I struggled with him, fighting him and throwing sand on his face. Then I ran and ran and ran, sometimes falling down. I continued running until I could see more buildings. I saw an older man with a tuk-tuk [rickshaw taxi] and asked him to take me to the university, which he did. My family took me to see a doctor. I had X-rays and ultrasound, but they didn't find anything seriously wrong with me." 
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ie4-tm-0gh">
+                                                <rect key="frame" x="307" y="756" width="101" height="298"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Maryama, Somalia">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.79675627504521995" green="0.36925473513055457" blue="0.91999012231826782" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="8" name="Helvetica"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" red="0.56015251470000005" green="0.1313056655" blue="0.61647790670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.56015251470000005" green="0.1313056655" blue="0.61647790670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="marya:" destination="Xxa-GV-fP3" eventType="touchUpInside" id="b9Y-Hb-4kU"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z83-Uh-1DM">
+                                                <rect key="frame" x="0.0" y="1074" width="83" height="209"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="Rugiati, Sierra Leone">
+                                                    <color key="baseForegroundColor" red="0.56015251470000005" green="0.1313056655" blue="0.61647790670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.56015251470000005" green="0.1313056655" blue="0.61647790670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="ruga:" destination="Xxa-GV-fP3" eventType="touchUpInside" id="pdC-un-baz"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJy-TS-3yz">
+                                                <rect key="frame" x="91" y="1062" width="314" height="232"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">"I'm an activist campaigning against the practice of female genital mutilation. I was initiated at age twelve, ten days after the death of my mother. The shock, the pain can't be explained. I bled and fainted when I tried to walk. After our graduation from initiation, I went out without being healed properly. My vagina was swollen for a month. But even at that age, I started talking to my friends who were never cut, explaining to them my ordeal and showing them my wound. Now, the organization I run has created an alternative rite of passage that allows girls to go through the cultural practice of bondo without having to go through the cutting of their clitoris.
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78U-Rc-cOW">
+                                                <rect key="frame" x="32" y="1309" width="347" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="Learn more about Female Mutilation "/>
+                                                <connections>
+                                                    <action selector="learn:" destination="Xxa-GV-fP3" eventType="touchUpInside" id="sst-Fk-Z7C"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBA-KP-VMU">
+                                                <rect key="frame" x="21" y="1368" width="373" height="132"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The Sande is a secret society for women. It initiates young girls and Female genital mutilation (FGM) is part of the initiation. Society often takes children without the consent of the parent or the child. FGM is also seen as a rite of passage before marriage by many communities. Despite the fact that it is a clear human rights violation, FGM continues to occur in almost 30 countries in Africa alone. Across the world, an estimated 200 million girls have been subjected to the practice.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIW-bB-Whk">
+                                                <rect key="frame" x="8" y="459" width="85" height="271"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.56015251470000005" green="0.1313056655" blue="0.61647790670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Catherine,  Malawi">
+                                                            <attributes>
+                                                                <font key="NSFont" size="8" name="Helvetica"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="catherine:" destination="Xxa-GV-fP3" eventType="touchUpInside" id="Kgq-Is-fUR"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="MXg-ec-fB5"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="R4h-18-dbp" secondAttribute="bottom" id="Jdq-hh-8eJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="R4h-18-dbp" secondAttribute="trailing" id="V9n-t5-hM7"/>
+                                    <constraint firstItem="R4h-18-dbp" firstAttribute="leading" secondItem="oNt-12-Meu" secondAttribute="leading" id="Vrv-gV-ChW"/>
+                                    <constraint firstItem="R4h-18-dbp" firstAttribute="top" secondItem="oNt-12-Meu" secondAttribute="top" id="eB8-eg-HrZ"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="T3a-Ey-GpY"/>
                         <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="oNt-12-Meu" firstAttribute="trailing" secondItem="T3a-Ey-GpY" secondAttribute="trailing" id="7CN-sb-oU2"/>
+                            <constraint firstItem="oNt-12-Meu" firstAttribute="top" secondItem="e0e-P2-hLj" secondAttribute="top" id="RdO-JA-r1s"/>
+                            <constraint firstItem="R4h-18-dbp" firstAttribute="height" secondItem="e0e-P2-hLj" secondAttribute="height" multiplier="1.74216" id="a9O-C5-m7F"/>
+                            <constraint firstItem="R4h-18-dbp" firstAttribute="width" secondItem="e0e-P2-hLj" secondAttribute="width" id="bd6-i9-O9i"/>
+                            <constraint firstItem="oNt-12-Meu" firstAttribute="leading" secondItem="T3a-Ey-GpY" secondAttribute="leading" id="sDN-8o-aEa"/>
+                            <constraint firstItem="oNt-12-Meu" firstAttribute="bottom" secondItem="T3a-Ey-GpY" secondAttribute="bottom" id="wnM-5p-Och"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="xQa-av-9Dg"/>
+                    <size key="freeformSize" width="414" height="915"/>
+                    <connections>
+                        <outlet property="MaryaStory" destination="yQj-yu-2ph" id="rHG-ZC-N2w"/>
+                        <outlet property="RugaStory" destination="xJy-TS-3yz" id="Nrb-04-hvJ"/>
+                        <outlet property="catherineStory" destination="iSL-yo-j6d" id="i4u-Pg-8Qt"/>
+                        <outlet property="learning" destination="fBA-KP-VMU" id="6ab-RE-ZqR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p9C-r1-nuk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3336" y="150"/>
+            <point key="canvasLocation" x="-3321.739130434783" y="128.23660714285714"/>
         </scene>
         <!--Reproductive Health View Controller-->
         <scene sceneID="7MF-7O-2Ey">
             <objects>
                 <viewController id="oia-v7-XsA" customClass="ReproductiveHealthViewController" customModule="E3_Final_Project___2ND_Body" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JHY-bk-avF">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="JHY-bk-avF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0W4-Dw-5mC">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0W4-Dw-5mC">
                                 <rect key="frame" x="0.0" y="44" width="414" height="798"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vFJ-3H-raw">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vFJ-3H-raw">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwd-MC-OcZ">
@@ -218,19 +385,13 @@
                                                 <color key="textColor" red="0.66386521464646464" green="0.090635351144585291" blue="0.091242298824430149" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7K-6U-7hX">
-                                                <rect key="frame" x="14" y="282" width="386" height="160.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7K-6U-7hX">
+                                                <rect key="frame" x="12" y="300" width="386" height="160.5"/>
                                                 <string key="text">An abortion is a procedure to end a pregnancy, and is a simple and common health-care procedure. Around 73 million induced abortions take place worldwids each year. Unfortunately, abortion can sometimes be inaccessible for women and people with uteruses, despite being sometimes a neccesary medical need</string>
                                                 <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="17"/>
                                                 <color key="textColor" red="0.4139046717" green="0.1018320546" blue="0.12076568090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen_Shot_2022-08-18_at_10.24.30_AM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="gt8-sZ-ej5">
-                                                <rect key="frame" x="33" y="455" width="348" height="244"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="244" id="q3k-BO-fxa"/>
-                                                </constraints>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maternal Mortality" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOb-OV-bbS">
                                                 <rect key="frame" x="50" y="707" width="314" height="26"/>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
@@ -285,6 +446,12 @@
                                                     <segue destination="BYZ-38-t0r" kind="show" id="6il-MF-Yl5"/>
                                                 </connections>
                                             </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen_Shot_2022-08-18_at_10.24.30_AM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="gt8-sZ-ej5">
+                                                <rect key="frame" x="26" y="468" width="348" height="244"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="244" id="q3k-BO-fxa"/>
+                                                </constraints>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.93486077889999997" blue="0.94711793249999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -351,6 +518,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Q4c-WP-FXq"/>
+                    <size key="freeformSize" width="414" height="896"/>
                     <connections>
                         <outlet property="factText" destination="lFA-61-8si" id="IoH-7s-rpy"/>
                     </connections>
@@ -362,77 +530,100 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="E3_Final_Project___2ND_Body" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="BYZ-38-t0r" customClass="ViewController" customModule="E3_Final_Project___2ND_Body" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zq5-Pz-fCm">
-                                <rect key="frame" x="10" y="177" width="153" height="35"/>
+                                <rect key="frame" x="112" y="215" width="194" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.39879949417970506" blue="0.75711072810805846" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="About Our Cause">
-                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="About Our Cause">
+                                            <attributes>
+                                                <font key="NSFont" size="16" name="Futura-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="6OL-Dk-Rms" kind="show" id="lql-Wl-bOo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pvn-Ws-yEb">
-                                <rect key="frame" x="10" y="419" width="134" height="35"/>
+                                <rect key="frame" x="112" y="452" width="194" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.39879949419999999" blue="0.75711072810000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Reproductive Health">
-                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Reproductive Health">
+                                            <attributes>
+                                                <font key="NSFont" size="16" name="Futura-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="oia-v7-XsA" kind="show" id="4cI-Hb-Ts3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhW-CZ-usj">
-                                <rect key="frame" x="255" y="539" width="171" height="35"/>
+                                <rect key="frame" x="112" y="579" width="194" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.39879949419999999" blue="0.75711072810000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Trauma Associated with Violence">
-                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Trauma Associated with Violence">
+                                            <attributes>
+                                                <font key="NSFont" size="16" name="Futura-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <attributedString key="attributedSubtitle"/>
+                                    <color key="baseBackgroundColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="Vao-pK-d8g" kind="show" id="6n5-yJ-epA"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the buttons below to learn more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czd-Ec-kkA">
-                                <rect key="frame" x="10" y="97" width="394" height="23"/>
-                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
-                                <color key="textColor" red="0.86953519570707072" green="0.36569407607591353" blue="0.32979537741341619" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="ocF-lE-SO7">
-                                <rect key="frame" x="82" y="203" width="229" height="404"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXi-az-Npq">
-                                <rect key="frame" x="286" y="316" width="128" height="67"/>
+                                <rect key="frame" x="112" y="332" width="194" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.91976243257522583" green="0.32202042832844213" blue="0.70975339925719405" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Violence Against Women">
                                             <attributes>
-                                                <color key="NSColor" red="0.99181265782828287" green="0.46561063907360184" blue="0.79560594367531157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="16" name="Futura-Medium"/>
+                                                <color key="NSColor" red="0.96104122920209945" green="0.98312673578873733" blue="0.99181265782828287" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="16" name="Futura-Bold"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
+                                    <color key="baseForegroundColor" red="0.96104122920000001" green="0.98312673579999998" blue="0.99181265780000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="Udl-Ni-500" kind="show" id="BAL-5C-fuL"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the buttons below to learn more!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czd-Ec-kkA">
+                                <rect key="frame" x="10" y="97" width="394" height="23"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
+                                <color key="textColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -443,6 +634,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="xlT-OV-4pj"/>
+                    <connections>
+                        <outlet property="about" destination="Zq5-Pz-fCm" id="dR5-op-8eh"/>
+                        <outlet property="helath" destination="Pvn-Ws-yEb" id="Wld-yI-saS"/>
+                        <outlet property="trauma" destination="dhW-CZ-usj" id="3hf-AJ-vzU"/>
+                        <outlet property="violence" destination="MXi-az-Npq" id="oeJ-eM-lwa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -533,7 +730,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="mappin" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="D5k-Lk-jor">
-                                <rect key="frame" x="216" y="181.5" width="26" height="47"/>
+                                <rect key="frame" x="194" y="184.5" width="26" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.61647790670000002" green="0.0" blue="0.14421723319999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
@@ -554,15 +751,6 @@
                                 <buttonConfiguration key="configuration" style="plain" title="."/>
                                 <connections>
                                     <segue destination="1yZ-om-7oQ" kind="show" id="7V0-7S-ILU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaA-se-Jo6">
-                                <rect key="frame" x="215" y="178" width="29" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="."/>
-                                <connections>
-                                    <segue destination="e6z-zk-XEf" kind="show" id="YpB-07-oaM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MK7-W4-ty2">
@@ -589,6 +777,18 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Home">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="DzN-eB-C6e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaA-se-Jo6">
+                                <rect key="frame" x="194" y="185" width="29" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                <connections>
+                                    <segue destination="e6z-zk-XEf" kind="show" id="YpB-07-oaM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qXt-fB-EJK"/>
@@ -624,156 +824,616 @@
             </objects>
             <point key="canvasLocation" x="-1033.3333333333335" y="139.95535714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Violence Japan-->
         <scene sceneID="bCw-gy-PdU">
             <objects>
-                <viewController id="YRT-ET-m7d" sceneMemberID="viewController">
+                <viewController id="YRT-ET-m7d" customClass="violenceJapan" customModule="E3_Final_Project___2ND_Body" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y7Q-zh-TSv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Japan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQU-wD-P1X">
-                                <rect key="frame" x="186" y="44" width="47" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="H0s-Xf-MWh"/>
-                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="4Db-hE-CxD"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nou-0D-Evb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2497.1014492753625" y="139.95535714285714"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="gFG-0N-eYd">
-            <objects>
-                <viewController id="e6z-zk-XEf" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Qov-EN-koo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Europe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnf-Zi-mDb">
-                                <rect key="frame" x="148" y="44" width="54" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="1qi-mT-3YH"/>
-                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="UKN-KH-W74"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="38P-Cg-Nfi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1781" y="140"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="c3i-JG-BSW">
-            <objects>
-                <viewController id="B4y-Gd-GbG" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Fil-Jl-s6U">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dEj-ji-sSR">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cLb-uY-PDJ">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pxI-6r-4ad">
-                                        <rect key="frame" x="-7" y="-13" width="413" height="1500"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DvZ-2h-fC4">
+                                        <rect key="frame" x="0.0" y="0.0" width="420" height="1500"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="030320amer_mexico_femicides_0" translatesAutoresizingMaskIntoConstraints="NO" id="Bpq-Od-gEb">
-                                                <rect key="frame" x="19" y="118" width="205" height="212"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmY-eN-7N0">
+                                                <rect key="frame" x="9" y="18" width="107" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Previous"/>
+                                                <connections>
+                                                    <segue destination="Udl-Ni-500" kind="show" id="WDZ-YT-8Nx"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAF-FP-cGs">
+                                                <rect key="frame" x="316" y="18" width="84" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="2yU-ZL-Efp"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Japan's Sexist Culture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yon-1k-lJL">
+                                                <rect key="frame" x="61" y="57" width="298" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="31"/>
+                                                <color key="textColor" red="0.94328004119999997" green="0.42176427719999998" blue="0.0003173813586" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YN3-l0-6GI">
+                                                <rect key="frame" x="15" y="94" width="384" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Japan has sometimes made headway in the fight for gender equality, but most  times it hasn't. Numerous historical leaders that have battled, reigned, and contributed to the development of the nation were women. However, nowadays women continue to experience severe gender inequity and have little support when trying to uphold their rights. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My project" translatesAutoresizingMaskIntoConstraints="NO" id="ztc-J9-39U">
+                                                <rect key="frame" x="93" y="208" width="365" height="284"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JR-04-xby">
-                                                <rect key="frame" x="82" y="67" width="254" height="43"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oi7-3Z-7qC">
+                                                <rect key="frame" x="25" y="294" width="199" height="112"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="Femicides in Mexico">
+                                                    <fragment content="&quot;Every woman is a victim.&quot;">
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="0.29453337513719735" blue="0.70927830540205472" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                            <font key="NSFont" size="23" name="Futura-Medium"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            <font key="NSFont" size="28" name="AmericanTypewriter-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2o8-uW-qhy">
-                                                <rect key="frame" x="232" y="47" width="181" height="355"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYE-Cf-Brv">
+                                                <rect key="frame" x="15" y="431" width="390" height="231"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text"> 229 confirmed femicides occurred in Mexico during the first three months of 2022. A femicide occurs when a woman is killed only based on gender. </string>
+                                                <mutableString key="text">Sexual harassment, sexual assault, and uneven pay all occur on a daily basis and at all times. Young fourteen-year-old girls are groped in trains while trying to get home because men feel entitled to, because they believed no one would dare report it to the authorities. Their consent age is yet another thing that many find absolutely ludicrous and unsafe.  Women around the nation are fighting these challenges more and more as they assert their individual fundamental rights and a fresh set of principles that also benefit, support, and protect them.
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wk6-UB-keR">
+                                                <rect key="frame" x="15" y="753" width="385" height="113"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The sexist culture in Japan makes it difficult for women to speak up. Women are brought up to believe that they should be quiet and obedient and that if they were ever to speak up it woukd be disrespectful. The lack of women in high ranking jobs in both government and other industry makes it even more difficult.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="120 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPR-Ja-1ql">
+                                                <rect key="frame" x="106" y="663" width="169" height="82"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="62"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Japan ranks " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpz-m8-gXF">
+                                                <rect key="frame" x="15" y="661" width="106" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                                <color key="textColor" red="0.94328004119999997" green="0.42176427719999998" blue="0.0003173813586" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUZ-Aq-Eny">
+                                                <rect key="frame" x="190" y="694" width="0.0" height="0.0"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ly3-cz-pbs">
-                                                <rect key="frame" x="19" y="317" width="383" height="280"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="th " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dqg-iU-bwl">
+                                                <rect key="frame" x="218" y="663" width="20" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">This is unfortunately not an uncommon occurrence. In Mexico, there are at least 2 confirmed fatalities of women every day, and the statistics are rising, reaching at least 1,000 confirmed deaths annually. 
-Many femicides do not undergo proper investigations, instead they’re tossed onto the growing pile of the 65% unrecognized femicides. Those that are confirmed, added to the statistics,  and receive fair trials are hardly the majority. 26 nations in Latin America and the Caribbean had approximately 4,091 femicide victims as of 2020; and many, not included in the data, did not receive the necessary assistance or were flatly denied their rights. 
-</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="In women's rights globally " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ML6-uI-tzK">
+                                                <rect key="frame" x="256" y="670" width="133" height="75"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                                <color key="textColor" red="0.94328004119999997" green="0.42176427719999998" blue="0.0003173813586" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gm2-Do-oBA">
+                                                <rect key="frame" x="106" y="898" width="190" height="63"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="Generate Facts"/>
+                                                <connections>
+                                                    <action selector="generator:" destination="YRT-ET-m7d" eventType="touchUpInside" id="dlh-io-eyF"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pe-py-7q5">
+                                                <rect key="frame" x="41" y="959" width="321" height="170"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                                <color key="textColor" red="0.94328004119999997" green="0.42176427719999998" blue="0.0003173813586" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="WPr-v3-GS7"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="DvZ-2h-fC4" firstAttribute="leading" secondItem="cLb-uY-PDJ" secondAttribute="leading" id="GBM-S8-HKy"/>
+                                    <constraint firstItem="DvZ-2h-fC4" firstAttribute="top" secondItem="cLb-uY-PDJ" secondAttribute="top" id="MiE-sG-fHV"/>
+                                    <constraint firstAttribute="trailing" secondItem="DvZ-2h-fC4" secondAttribute="trailing" id="Rlz-na-1aD"/>
+                                    <constraint firstAttribute="bottom" secondItem="DvZ-2h-fC4" secondAttribute="bottom" id="a3E-Sb-cb3"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="H0s-Xf-MWh"/>
+                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="DvZ-2h-fC4" firstAttribute="height" secondItem="Y7Q-zh-TSv" secondAttribute="height" multiplier="1.78147" id="7hD-Gh-F6u"/>
+                            <constraint firstItem="cLb-uY-PDJ" firstAttribute="trailing" secondItem="H0s-Xf-MWh" secondAttribute="trailing" id="FXX-IU-kOT"/>
+                            <constraint firstItem="cLb-uY-PDJ" firstAttribute="leading" secondItem="H0s-Xf-MWh" secondAttribute="leading" id="GOs-n9-bMA"/>
+                            <constraint firstItem="DvZ-2h-fC4" firstAttribute="width" secondItem="Y7Q-zh-TSv" secondAttribute="width" multiplier="1.01449" id="NB7-sp-BVe"/>
+                            <constraint firstItem="cLb-uY-PDJ" firstAttribute="bottom" secondItem="H0s-Xf-MWh" secondAttribute="bottom" id="lhi-aY-qIM"/>
+                            <constraint firstItem="cLb-uY-PDJ" firstAttribute="top" secondItem="Y7Q-zh-TSv" secondAttribute="top" id="uxn-Lz-RHB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4Db-hE-CxD"/>
+                    <connections>
+                        <outlet property="facts" destination="8pe-py-7q5" id="jp0-eT-Xqt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nou-0D-Evb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2497.1014492753625" y="139.95535714285714"/>
+        </scene>
+        <!--Violence Europe-->
+        <scene sceneID="gFG-0N-eYd">
+            <objects>
+                <viewController id="e6z-zk-XEf" customClass="violenceEurope" customModule="E3_Final_Project___2ND_Body" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qov-EN-koo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jLQ-8A-N71">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DTl-82-vWE">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sex Trafficking In Europe" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQa-DS-m8F">
+                                                <rect key="frame" x="39" y="32" width="350" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                                <color key="textColor" red="0.61216895049999998" green="0.39549030410000002" blue="0.41348830530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="KpB-Qx-QBZ">
+                                                <rect key="frame" x="50" y="90" width="295" height="154"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sq4-TB-NMo">
+                                                <rect key="frame" x="15" y="252" width="398" height="440"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Sex trafficking is defined as transportarion of persons by means of coercion, deception or force into exploitative and slavery like conditions. It has become one of the fastest growing industries in the European Union. Women are traded and bought in sexual slavery or another form of slavery against their will. Majority of victims in Europe are young adult women who are mainly trafficked for sexual exploitation, forced labor, or demestic servitude. A rise in organized crime, and poverty have led to higher rates of trafficking. Women are abducted and transported both within Europe and outside of Europe. Recruitment practices include fake job advertisements, providing travel or services then forcing a debt onto the women, as well as fake modeling agencies and “study-abroad” opportunities. 
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhF-92-ZpZ">
+                                                <rect key="frame" x="0.0" y="8" width="103" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Previous"/>
+                                                <connections>
+                                                    <segue destination="Udl-Ni-500" kind="show" id="Pva-W8-pMz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYC-x8-1vr">
+                                                <rect key="frame" x="327" y="8" width="79" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="mbB-dr-9Ey"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lil-kH-lgC">
+                                                <rect key="frame" x="8" y="662" width="398" height="153"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Refugees are common victims of these deceitful schemes. For most, a promise of a safe home with a secure living is too good to pass up. Recently, Ukranian refugees have become a target for abductors. Annualy, about 250,000 women and girls are sex trafficked- and those are just the identified cases.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.61216895049999998" green="0.39549030410000002" blue="0.41348830530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6Q-nb-z6h">
+                                                <rect key="frame" x="8" y="846" width="143" height="51"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Statistics">
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" red="0.61216895049999998" green="0.39549030410000002" blue="0.41348830530000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="stats:" destination="e6z-zk-XEf" eventType="touchUpInside" id="2QP-cH-KdN"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="53% of European women avoid going places due to fear of sexual harassment, rape or abduction " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJz-vh-e6Y">
+                                                <rect key="frame" x="30" y="905" width="224" height="106"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="My project-1" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bEf-qf-gsC">
+                                                <rect key="frame" x="132" y="831" width="346" height="266"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysa-Ul-PXK">
+                                                <rect key="frame" x="0.0" y="1023" width="113" height="298"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="Jewel's story ">
+                                                    <color key="baseForegroundColor" red="0.61647790670000002" green="0.0" blue="0.1567407274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.61647790670000002" green="0.36882425079999998" blue="0.2595816957" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="jewely:" destination="e6z-zk-XEf" eventType="touchUpInside" id="vCx-61-yrx"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNV-As-V38">
+                                                <rect key="frame" x="121" y="1019" width="292" height="326"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Jewel, a Nigerian Refugee, flew to Denmark expecting an occupation as elderly caregiver.  She knew of women who had been tricked into sex work, bit this opportunity seemed legitimate. When she arrived, her "boss", took her to the streets and told her that is where she would be working. She was forced to go home with men who payed her "boss", because Jewel was "indebted" to her. Traffickers will often use this tactic to keep victims in line, telling them that they owe them money for lodging and transportation. Luckily, Jewel was able to get out; a NGO officer gave her their card and she was able to contact thm. Unfortunately, this is not the story of many other who are forced to stay in these dangerous conditions. Jewel recounts a traumatic memory in which one of her "clients" forced her in a tub only to continously pour buckets of ice one her during the freezing winter.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="7yl-AB-VcK"/>
+                                            <constraint firstAttribute="height" constant="1500" id="bQF-TN-MOf"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="pxI-6r-4ad" firstAttribute="height" secondItem="dEj-ji-sSR" secondAttribute="height" multiplier="1.78147" id="Cof-2j-Nxf"/>
-                                    <constraint firstItem="pxI-6r-4ad" firstAttribute="width" secondItem="dEj-ji-sSR" secondAttribute="width" multiplier="0.997585" id="wwX-zg-KfX"/>
+                                    <constraint firstAttribute="trailing" secondItem="DTl-82-vWE" secondAttribute="trailing" id="6NR-Rr-aOa"/>
+                                    <constraint firstItem="DTl-82-vWE" firstAttribute="top" secondItem="jLQ-8A-N71" secondAttribute="top" id="BmX-mR-TYR"/>
+                                    <constraint firstAttribute="bottom" secondItem="DTl-82-vWE" secondAttribute="bottom" id="RQP-XG-9te"/>
+                                    <constraint firstItem="DTl-82-vWE" firstAttribute="leading" secondItem="jLQ-8A-N71" secondAttribute="leading" id="ezF-YR-Q0X"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1qi-mT-3YH"/>
+                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="jLQ-8A-N71" firstAttribute="leading" secondItem="1qi-mT-3YH" secondAttribute="leading" id="7xh-v4-ooD"/>
+                            <constraint firstItem="jLQ-8A-N71" firstAttribute="bottom" secondItem="1qi-mT-3YH" secondAttribute="bottom" id="AUQ-q2-T86"/>
+                            <constraint firstItem="jLQ-8A-N71" firstAttribute="trailing" secondItem="1qi-mT-3YH" secondAttribute="trailing" id="IPq-6h-in3"/>
+                            <constraint firstItem="jLQ-8A-N71" firstAttribute="top" secondItem="Qov-EN-koo" secondAttribute="top" id="Qmp-LV-aLa"/>
+                            <constraint firstItem="DTl-82-vWE" firstAttribute="width" secondItem="Qov-EN-koo" secondAttribute="width" id="Y7T-JV-OHq"/>
+                            <constraint firstItem="DTl-82-vWE" firstAttribute="height" secondItem="Qov-EN-koo" secondAttribute="height" multiplier="1.78147" id="x2D-hP-Ggf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="UKN-KH-W74"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="jewel" destination="SNV-As-V38" id="S8L-LA-bP6"/>
+                        <outlet property="pie" destination="bEf-qf-gsC" id="6xS-7a-p1e"/>
+                        <outlet property="word" destination="lJz-vh-e6Y" id="q9b-3u-n1n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="38P-Cg-Nfi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1781.1594202898552" y="139.95535714285714"/>
+        </scene>
+        <!--Violence Mexico-->
+        <scene sceneID="c3i-JG-BSW">
+            <objects>
+                <viewController id="B4y-Gd-GbG" customClass="violenceMexico" customModule="E3_Final_Project___2ND_Body" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fil-Jl-s6U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="921"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xyi-O1-LTf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="921"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AHy-9t-Mh3">
+                                        <rect key="frame" x="0.0" y="-18" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Femicides in Mexico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIh-gc-0s3">
+                                                <rect key="frame" x="59" y="88" width="297" height="37"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="33"/>
+                                                <color key="textColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cG2-6I-kah">
+                                                <rect key="frame" x="16" y="26" width="105" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Previous"/>
+                                                <connections>
+                                                    <segue destination="Udl-Ni-500" kind="show" id="CYB-qk-Zky"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klD-sY-76h">
+                                                <rect key="frame" x="304" y="26" width="86" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="qsR-TG-AUF"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="030320amer_mexico_femicides_0" translatesAutoresizingMaskIntoConstraints="NO" id="Nah-16-8Ic">
+                                                <rect key="frame" x="13" y="168" width="213" height="150"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUU-XY-z1b">
+                                                <rect key="frame" x="8" y="336" width="398" height="431"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">A femicide occurs when a woman is killed only based on gender. This is unfortunately not an uncommon occurrence. In Mexico, there are at least 2 confirmed fatalities of women every day, and the statistics are rising, reaching at least 1,000 confirmed deaths annually. Many femicides do not undergo proper investigations, instead they’re tossed onto the growing pile of the 65% unrecognized femicides. Those that are confirmed, added to the statistics,  and receive fair trials are hardly the majority. 26 nations in Latin America and the Caribbean had approximately 4,091 femicide victims as of 2020; and many, not included in the data, did not receive the necessary assistance or were flatly denied their rights. Below are the stories of two victims. Stories of femicides like these frequently do not reach the public or are not reported on by the news in Mexico. Considering that tourism is a significant contribution to the economy, the government wishes to prevent any harm to the industry.
+
+</mutableString>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="16"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQS-Kb-NUk">
+                                                <rect key="frame" x="58" y="751" width="267" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="Magdalena, 28 ">
+                                                    <color key="baseForegroundColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="mag:" destination="B4y-Gd-GbG" eventType="touchUpInside" id="CAu-w6-Mfz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1z6-wa-YTJ">
+                                                <rect key="frame" x="58" y="943" width="275" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Fátima Cecilia ">
+                                                            <attributes>
+                                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=", 7">
+                                                            <attributes>
+                                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="fatima:" destination="B4y-Gd-GbG" eventType="touchUpInside" id="bJg-SQ-90r"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3FK-z9-YuS">
+                                                <rect key="frame" x="13" y="991" width="390" height="168"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Fàtima was abducted at the doors of her school by a strange woman. To prevent her husband from raping her children, the woman surrendered seven year old Fatima to her husband so they could be safe. A little later, Fátima's body was discovered 5 kilometers from her school with evidence of torture and sexual abuse. Fortunately, authorities have detained the  husband and wife.
+
+</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="14"/>
+                                                <color key="textColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" 229 confirmed femicides occurred in Mexico during the first three months of 2022." lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLn-BM-p6W">
+                                                <rect key="frame" x="235" y="171" width="155" height="144"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="19"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yb3-fj-arY">
+                                                <rect key="frame" x="15" y="790" width="384" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Magdalena disappeared when she went to pick up her kids from her ex-husband César Gomez. César slaughtered and stuffed her remains in a freezer. Authorities found her legs and arms in a pot on the stove, while her already cooked pelvis sat in a plastic bag. Her children were listed as being at the scene of the crime, meaning they were witness to their mother's dismemberment by their father. </string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="14"/>
+                                                <color key="textColor" red="0.91976243260000001" green="0.32202042829999999" blue="0.70975339930000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="t4i-1M-yn9"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="AHy-9t-Mh3" firstAttribute="leading" secondItem="Xyi-O1-LTf" secondAttribute="leading" id="5dj-6e-5Xe"/>
+                                    <constraint firstItem="AHy-9t-Mh3" firstAttribute="top" secondItem="Xyi-O1-LTf" secondAttribute="top" id="6BV-V3-ptI"/>
+                                    <constraint firstAttribute="trailing" secondItem="AHy-9t-Mh3" secondAttribute="trailing" id="kr5-tM-5xz"/>
+                                    <constraint firstAttribute="bottom" secondItem="AHy-9t-Mh3" secondAttribute="bottom" id="qtn-gB-DxI"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P10-fq-PNc"/>
                         <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="dEj-ji-sSR" firstAttribute="top" secondItem="Fil-Jl-s6U" secondAttribute="top" id="YOB-Dm-SSZ"/>
-                            <constraint firstItem="dEj-ji-sSR" firstAttribute="leading" secondItem="P10-fq-PNc" secondAttribute="leading" id="ZJ1-mk-ZIw"/>
-                            <constraint firstItem="dEj-ji-sSR" firstAttribute="trailing" secondItem="P10-fq-PNc" secondAttribute="trailing" id="dSt-zB-6qk"/>
-                            <constraint firstItem="dEj-ji-sSR" firstAttribute="bottom" secondItem="P10-fq-PNc" secondAttribute="bottom" id="wt6-cc-b0b"/>
+                            <constraint firstItem="Xyi-O1-LTf" firstAttribute="leading" secondItem="P10-fq-PNc" secondAttribute="leading" id="6ZG-Xa-kYE"/>
+                            <constraint firstItem="Xyi-O1-LTf" firstAttribute="top" secondItem="Fil-Jl-s6U" secondAttribute="top" id="RPO-15-oVc"/>
+                            <constraint firstItem="AHy-9t-Mh3" firstAttribute="height" secondItem="Fil-Jl-s6U" secondAttribute="height" multiplier="1.62866" id="Vqu-82-Bs9"/>
+                            <constraint firstItem="AHy-9t-Mh3" firstAttribute="width" secondItem="Fil-Jl-s6U" secondAttribute="width" id="Zq0-xP-0sn"/>
+                            <constraint firstItem="Xyi-O1-LTf" firstAttribute="bottom" secondItem="P10-fq-PNc" secondAttribute="bottom" id="fYQ-xu-qf2"/>
+                            <constraint firstItem="Xyi-O1-LTf" firstAttribute="trailing" secondItem="P10-fq-PNc" secondAttribute="trailing" id="ldV-zf-zh1"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" id="GAe-VL-vDt"/>
-                    <size key="freeformSize" width="414" height="896"/>
+                    <size key="freeformSize" width="414" height="975"/>
+                    <connections>
+                        <outlet property="fatimaL" destination="3FK-z9-YuS" id="16e-Di-8Db"/>
+                        <outlet property="magL" destination="Yb3-fj-arY" id="d85-S6-kmp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="haa-EP-GjP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-242.0289855072464" y="139.95535714285714"/>
+            <point key="canvasLocation" x="-242.0289855072464" y="149.66517857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Violence Canada-->
         <scene sceneID="j77-EN-eMQ">
             <objects>
-                <viewController id="1yZ-om-7oQ" sceneMemberID="viewController">
+                <viewController id="1yZ-om-7oQ" customClass="violenceCanada" customModule="E3_Final_Project___2ND_Body" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zln-rz-SQV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Indigenous Women in Canada" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRj-mp-dvu">
-                                <rect key="frame" x="106" y="44" width="226" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRj-mp-dvu">
+                                <rect key="frame" x="106" y="44" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y40-lH-xKT">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fut-Ff-jqA">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Murdered and Missing Indigenous Women In Canada" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBL-WC-D2A">
+                                                <rect key="frame" x="8" y="51" width="392" height="71"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="24"/>
+                                                <color key="textColor" red="0.61647790670000002" green="0.0" blue="0.1567407274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMW-qx-ZEE">
+                                                <rect key="frame" x="0.0" y="12" width="112" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Previous">
+                                                    <color key="baseForegroundColor" systemColor="systemBlueColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Udl-Ni-500" kind="show" id="Rej-qa-LWR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktM-Ev-F6E">
+                                                <rect key="frame" x="317" y="12" width="83" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                                    <color key="baseForegroundColor" systemColor="linkColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="dSQ-FD-dja"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="DW4-YT-c9v">
+                                                <rect key="frame" x="70" y="130" width="268" height="148"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49x-MI-Pol">
+                                                <rect key="frame" x="8" y="309" width="392" height="319"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <mutableString key="content">In Canada, Indigenous women are overrepresented as victims of femicide- they represent 4% of the Canadian population yet they represented 28% of homicide victims in 2020. Over the years many Indigenous women have been murdered and gone missing, with authorities not taking proper action. The Sisters in Spirit grassroots initiative brought up these death, and in response the Canadian government launched the National Inquiry into Missing and Murdered Indigenous Women. In 2019, the National Inquiry published its final report, stating that the deaths of 231 women were a “genocide”. Years later, in 2022, Indigenous Women continue to go missing and murdered. In the last 10 days of May alone, 3 Indigenous women were murdered.
+</mutableString>
+                                                        <attributes>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db0-TW-ybu">
+                                                <rect key="frame" x="15" y="628" width="130" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="Why?">
+                                                    <color key="baseForegroundColor" red="0.61647790670000002" green="0.0" blue="0.1567407274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.61647790670000002" green="0.0" blue="0.1567407274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="why:" destination="1yZ-om-7oQ" eventType="touchUpInside" id="IVw-Gk-zCX"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4Q-DF-e20">
+                                                <rect key="frame" x="15" y="686" width="399" height="192"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">1. The rates are so high due to racist and sexist stereotypes. Perpetrators believe they can get away with harming Indigenous women, and unfortunately most of the time they do. 
+2. Generational trauma from residential schools and the bad living conditions that Indginous communities have to face ( such as no clean water supply, lack of education and access to affordable stores) make it harder to access resources.
+3. Government and law enforcement inaction
+</string>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                                <color key="textColor" red="0.61647790670000002" green="0.0" blue="0.1567407274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXh-VA-0xq">
+                                                <rect key="frame" x="15" y="962" width="391" height="198"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">1. A national action plan that acts in a culturally appropriate way to address the root cause of violence, support those impacted by it and end violence against indigenous women. 
+2. Regular and comprehensive data collection of crime against indigenous women. Current statistics are subpar and often exclude indigenous women all together, making it more difficult to understand the true impact violence has on indigenous women.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" red="0.61647790670000002" green="0.0" blue="0.1567407274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1pz-zu-AS3">
+                                                <rect key="frame" x="213" y="904" width="153" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="What Next?">
+                                                    <color key="baseForegroundColor" red="0.61647790670000002" green="0.0" blue="0.1567407274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" red="0.61647790670000002" green="0.0" blue="0.1567407274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="what:" destination="1yZ-om-7oQ" eventType="touchUpInside" id="eYq-li-j46"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="z5L-x0-vug"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Fut-Ff-jqA" firstAttribute="bottom" secondItem="Y40-lH-xKT" secondAttribute="bottom" id="Vze-vd-O81"/>
+                                    <constraint firstItem="Fut-Ff-jqA" firstAttribute="top" secondItem="Y40-lH-xKT" secondAttribute="top" id="gQD-Ls-dge"/>
+                                    <constraint firstItem="Fut-Ff-jqA" firstAttribute="trailing" secondItem="Y40-lH-xKT" secondAttribute="trailing" id="geM-Y6-K2s"/>
+                                    <constraint firstItem="Fut-Ff-jqA" firstAttribute="leading" secondItem="Y40-lH-xKT" secondAttribute="leading" id="xaQ-Og-FUI"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0BX-mp-WYf"/>
                         <color key="backgroundColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="1" green="0.94056468780000002" blue="0.95729942329999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Y40-lH-xKT" firstAttribute="leading" secondItem="0BX-mp-WYf" secondAttribute="leading" id="JR9-Y3-p6H"/>
+                            <constraint firstItem="Fut-Ff-jqA" firstAttribute="width" secondItem="Zln-rz-SQV" secondAttribute="width" id="LEb-Ij-Q0q"/>
+                            <constraint firstItem="Fut-Ff-jqA" firstAttribute="height" secondItem="Zln-rz-SQV" secondAttribute="height" multiplier="1.78147" id="Vmw-hA-aye"/>
+                            <constraint firstItem="Y40-lH-xKT" firstAttribute="trailing" secondItem="0BX-mp-WYf" secondAttribute="trailing" id="bOn-V8-e7O"/>
+                            <constraint firstItem="Y40-lH-xKT" firstAttribute="top" secondItem="Zln-rz-SQV" secondAttribute="top" id="llK-Ud-CBN"/>
+                            <constraint firstItem="Y40-lH-xKT" firstAttribute="bottom" secondItem="0BX-mp-WYf" secondAttribute="bottom" id="rdz-V2-UYG"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="849-ok-dGM"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="whatexp" destination="zXh-VA-0xq" id="5RZ-IE-ev0"/>
+                        <outlet property="whyexp" destination="I4Q-DF-e20" id="EUh-cX-Y49"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hCM-b3-1Zs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -904,18 +1564,29 @@ Many femicides do not undergo proper investigations, instead they’re tossed on
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6il-MF-Yl5"/>
+        <segue reference="RkG-TL-cLg"/>
+        <segue reference="eVd-ha-v4f"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="030320amer_mexico_femicides_0" width="512" height="341"/>
-        <image name="Image" width="153.5" height="256"/>
+        <image name="50307290_401" width="700" height="394"/>
+        <image name="My project" width="722" height="514"/>
+        <image name="My project-1" width="242" height="208"/>
         <image name="Screen Shot 2022-08-17 at 1.47.15 PM" width="750" height="514"/>
         <image name="Screen_Shot_2022-08-18_at_10.24.30_AM-removebg-preview" width="592" height="422"/>
+        <image name="download" width="318" height="159"/>
+        <image name="images-1" width="300" height="168"/>
         <image name="mappin" catalog="system" width="105" height="128"/>
         <image name="pie-charts-1" width="600" height="600"/>
         <image name="world-map-pink" width="1052.3621826171875" height="580"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

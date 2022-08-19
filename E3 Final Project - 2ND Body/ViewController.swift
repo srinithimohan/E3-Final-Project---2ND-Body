@@ -13,7 +13,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    @IBOutlet weak var about: UIButton!
+    
+    @IBOutlet weak var violence: UIButton!
+    
+    @IBOutlet weak var helath: UIButton!
+    @IBOutlet weak var trauma: UIButton!
 }
 

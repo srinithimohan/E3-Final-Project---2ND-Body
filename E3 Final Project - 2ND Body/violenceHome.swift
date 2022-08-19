@@ -24,11 +24,14 @@ class violenceHome: UIViewController {
         // Do any additional setup after loading the view.
     
     @IBAction func stats(_ sender: UIButton) {
-        if percentage.isHidden != true && chart.isHidden != true && data.isHidden != true {
-            percentage.isHidden = true && chart.isHidden == true && data.isHidden == true
-        }else {percentage.isHidden = false && chart.isHidden == false && data.isHidden == false}
-    
-
+       if percentage.isHidden != true && chart.isHidden != true && data.isHidden != true {
+        percentage.isHidden = true;
+        chart.isHidden = true;
+        data.isHidden = true;
+       }else { percentage.isHidden = false;
+           chart.isHidden = false;
+           data.isHidden = false;
+       }
     /*
     // MARK: - Navigation
 
@@ -36,7 +39,9 @@ class violenceHome: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-    }
+    } if percentage.isHidden != true && chart.isHidden != true && data.isHidden != true {
+     percentage.isHidden = true && chart.isHidden == true && data.isHidden == true
+ }else {percentage.isHidden = false && chart.isHidden == false && data.isHidden == false}
     */
 
 }

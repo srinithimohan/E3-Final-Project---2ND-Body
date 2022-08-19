@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		5A863A4E28AD9D2F000E886D /* violenceHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A863A4D28AD9D2F000E886D /* violenceHome.swift */; };
 		5A863A5028ADC828000E886D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A863A4F28ADC828000E886D /* Assets.xcassets */; };
+		5A863A5228AEB1BF000E886D /* africaViolence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A863A5128AEB1BF000E886D /* africaViolence.swift */; };
+		5A863A5428AECA7E000E886D /* violenceCanada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A863A5328AECA7E000E886D /* violenceCanada.swift */; };
+		5A863A5628AEE538000E886D /* violenceMexico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A863A5528AEE538000E886D /* violenceMexico.swift */; };
+		5A863A5828AEEC86000E886D /* violenceEurope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A863A5728AEEC86000E886D /* violenceEurope.swift */; };
+		5A863A5A28AF00D5000E886D /* violenceJapan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A863A5928AF00D5000E886D /* violenceJapan.swift */; };
 		B108B7D328AC16F700089690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B108B7D228AC16F700089690 /* AppDelegate.swift */; };
 		B108B7D528AC16F700089690 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B108B7D428AC16F700089690 /* SceneDelegate.swift */; };
 		B108B7D728AC16F700089690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B108B7D628AC16F700089690 /* ViewController.swift */; };
@@ -21,6 +26,11 @@
 /* Begin PBXFileReference section */
 		5A863A4D28AD9D2F000E886D /* violenceHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = violenceHome.swift; sourceTree = "<group>"; };
 		5A863A4F28ADC828000E886D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A863A5128AEB1BF000E886D /* africaViolence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = africaViolence.swift; sourceTree = "<group>"; };
+		5A863A5328AECA7E000E886D /* violenceCanada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = violenceCanada.swift; sourceTree = "<group>"; };
+		5A863A5528AEE538000E886D /* violenceMexico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = violenceMexico.swift; sourceTree = "<group>"; };
+		5A863A5728AEEC86000E886D /* violenceEurope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = violenceEurope.swift; sourceTree = "<group>"; };
+		5A863A5928AF00D5000E886D /* violenceJapan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = violenceJapan.swift; sourceTree = "<group>"; };
 		B108B7CF28AC16F700089690 /* E3 Final Project - 2ND Body.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E3 Final Project - 2ND Body.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B108B7D228AC16F700089690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B108B7D428AC16F700089690 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +56,7 @@
 		B108B7C628AC16F700089690 = {
 			isa = PBXGroup;
 			children = (
+				5A863A5528AEE538000E886D /* violenceMexico.swift */,
 				B108B7D128AC16F700089690 /* E3 Final Project - 2ND Body */,
 				B108B7D028AC16F700089690 /* Products */,
 			);
@@ -67,6 +78,10 @@
 				B108B7D628AC16F700089690 /* ViewController.swift */,
 				5A863A4D28AD9D2F000E886D /* violenceHome.swift */,
 				B108B7D828AC16F700089690 /* Main.storyboard */,
+				5A863A5928AF00D5000E886D /* violenceJapan.swift */,
+				5A863A5728AEEC86000E886D /* violenceEurope.swift */,
+				5A863A5328AECA7E000E886D /* violenceCanada.swift */,
+				5A863A5128AEB1BF000E886D /* africaViolence.swift */,
 				B108B7E928AE88E400089690 /* ReproductiveHealthViewController.swift */,
 				B108B7E028AC16F900089690 /* LaunchScreen.storyboard */,
 				5A863A4F28ADC828000E886D /* Assets.xcassets */,
@@ -149,7 +164,12 @@
 			files = (
 				B108B7EA28AE88E400089690 /* ReproductiveHealthViewController.swift in Sources */,
 				B108B7D728AC16F700089690 /* ViewController.swift in Sources */,
+				5A863A5828AEEC86000E886D /* violenceEurope.swift in Sources */,
+				5A863A5A28AF00D5000E886D /* violenceJapan.swift in Sources */,
 				5A863A4E28AD9D2F000E886D /* violenceHome.swift in Sources */,
+				5A863A5628AEE538000E886D /* violenceMexico.swift in Sources */,
+				5A863A5228AEB1BF000E886D /* africaViolence.swift in Sources */,
+				5A863A5428AECA7E000E886D /* violenceCanada.swift in Sources */,
 				B108B7DD28AC16F700089690 /* E3_Final_Project___2ND_Body.xcdatamodeld in Sources */,
 				B108B7D328AC16F700089690 /* AppDelegate.swift in Sources */,
 				B108B7D528AC16F700089690 /* SceneDelegate.swift in Sources */,
